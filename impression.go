@@ -40,6 +40,7 @@ type Impression struct {
 	Ext                   json.RawMessage `json:"ext,omitempty"`
 	Metric                []Metric        `json:"metric,omitempty"`
 	ClickBrowser          int             `json:"clickbrowser,omitempty"`
+	Rwdd                  int             `json:"rwdd,omitempty"`
 }
 
 type MetricType string
